@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$('#search').val('')
 		$('.searched').append("<button class='lol' type='button'>" + entry + "</button>")
 		$.ajax({
-			url: 'http://api.giphy.com/v1/gifs/search?q=' + searchTerm + '&api_key=dc6zaTOxFJmzC'
+			url: 'https://api.giphy.com/v1/gifs/search?q=' + searchTerm + '&api_key=dc6zaTOxFJmzC'
 		}).done(function(data) {
 			console.log(data)
 			var currImg
