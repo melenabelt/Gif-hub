@@ -1,9 +1,14 @@
 .lol {
-	background-color:lightcoral;												
-	border:1px solid red;
-	border-radius:20px;
-	display:inline-block;
+	background-color: lightcoral;												
+	border: 1px solid red;
+	border-radius: 10px;
+	display: inline-block;
+	margin:	2px 5px;
+}
+.gifbox {
+    display: inline-block;
+    margin: 20px;
 }
 .giffed {
-	max-height: 300px;
+	height: 200px;
 }
