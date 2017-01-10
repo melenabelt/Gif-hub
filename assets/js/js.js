@@ -56,7 +56,7 @@ $(document).ready(function() {
     $(document).on('click','.lol', function() {
         $('.gifs').empty()
         $.ajax({
-			url: 'https://api.giphy.com/v1/gifs/search?q=' + this.innerHTML + '&limit=10&api_key=dc6zaTOxFJmzC'
+			url: 'https://api.giphy.com/v1/gifs/search?q=' + this.innerHTML + '&limit=10&api_key=/*TO-DO*/'
 		}).done(function(data) {
 			var currImg
 			for (i = 0; i < data.data.length; i++) {
